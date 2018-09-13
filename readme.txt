@@ -1,7 +1,2 @@
-Danh sách thành viên nhóm 1:
+ï»¿ÄÃ¢y lÃ  pháº§n má»m bÃ¡o cÃ¡o thá»±c hÃ nh mÃ´n quáº£n lÃ½ dá»± Ã¡n pháº§n má»m nÄƒm há»c 2017 - 2018.
 
-	h? và tên	   MSSV
-1. Hà Phúc Qu?c B?o    - 1531101007
-2. Ngô Hoàng Cu?ng     - 1531101014
-3. Nguy?n Lê Vinh Hi?n - 1531101035
-4. Nguy?n Thái Huy     - 1531101041
