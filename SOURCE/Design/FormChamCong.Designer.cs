@@ -53,10 +53,10 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lbSL = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblSL = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lbTranhThai = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblTranhThai = new System.Windows.Forms.ToolStripStatusLabel();
             this.clSTT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clMaNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clTenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,7 +64,7 @@
             this.clNgayCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clThoiGian = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clSLg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clBTLuu = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.clblTLuu = new System.Windows.Forms.DataGridViewButtonColumn();
             this.clXoa = new System.Windows.Forms.DataGridViewButtonColumn();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -278,7 +278,7 @@
             this.clNgayCC,
             this.clThoiGian,
             this.clSLg,
-            this.clBTLuu,
+            this.clblTLuu,
             this.clXoa});
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(12, 115);
@@ -294,10 +294,10 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
-            this.lbSL,
+            this.lblSL,
             this.toolStripStatusLabel3,
             this.toolStripStatusLabel4,
-            this.lbTranhThai});
+            this.lblTranhThai});
             this.statusStrip1.Location = new System.Drawing.Point(0, 466);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(918, 22);
@@ -310,11 +310,11 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(25, 17);
             this.toolStripStatusLabel1.Text = "SL: ";
             // 
-            // lbSL
+            // lblSL
             // 
-            this.lbSL.Name = "lbSL";
-            this.lbSL.Size = new System.Drawing.Size(25, 17);
-            this.lbSL.Text = "100";
+            this.lblSL.Name = "lblSL";
+            this.lblSL.Size = new System.Drawing.Size(25, 17);
+            this.lblSL.Text = "100";
             // 
             // toolStripStatusLabel3
             // 
@@ -328,11 +328,11 @@
             this.toolStripStatusLabel4.Size = new System.Drawing.Size(69, 17);
             this.toolStripStatusLabel4.Text = "Trạng Thái: ";
             // 
-            // lbTranhThai
+            // lblTranhThai
             // 
-            this.lbTranhThai.Name = "lbTranhThai";
-            this.lbTranhThai.Size = new System.Drawing.Size(55, 17);
-            this.lbTranhThai.Text = "Chưa lưu";
+            this.lblTranhThai.Name = "lblTranhThai";
+            this.lblTranhThai.Size = new System.Drawing.Size(55, 17);
+            this.lblTranhThai.Text = "Chưa lưu";
             // 
             // clSTT
             // 
@@ -374,12 +374,12 @@
             this.clSLg.HeaderText = "Số lượng(sp)";
             this.clSLg.Name = "clSLg";
             // 
-            // clBTLuu
+            // clblTLuu
             // 
-            this.clBTLuu.HeaderText = "Chấm công";
-            this.clBTLuu.Name = "clBTLuu";
-            this.clBTLuu.Text = "Lưu";
-            this.clBTLuu.UseColumnTextForButtonValue = true;
+            this.clblTLuu.HeaderText = "Chấm công";
+            this.clblTLuu.Name = "clblTLuu";
+            this.clblTLuu.Text = "Lưu";
+            this.clblTLuu.UseColumnTextForButtonValue = true;
             // 
             // clXoa
             // 
@@ -432,10 +432,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripStatusLabel lbSL;
+        private System.Windows.Forms.ToolStripStatusLabel lblSL;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
-        private System.Windows.Forms.ToolStripStatusLabel lbTranhThai;
+        private System.Windows.Forms.ToolStripStatusLabel lblTranhThai;
         private System.Windows.Forms.TextBox txbCCMaSV;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbbTimKiem;
@@ -450,7 +450,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clNgayCC;
         private System.Windows.Forms.DataGridViewTextBoxColumn clThoiGian;
         private System.Windows.Forms.DataGridViewTextBoxColumn clSLg;
-        private System.Windows.Forms.DataGridViewButtonColumn clBTLuu;
+        private System.Windows.Forms.DataGridViewButtonColumn clblTLuu;
         private System.Windows.Forms.DataGridViewButtonColumn clXoa;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
