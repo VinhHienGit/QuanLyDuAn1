@@ -1,6 +1,6 @@
 ﻿namespace Design
 {
-    partial class f_ThemNS
+    partial class FormThemHoSoNhanSu
     {
         /// <summary>
         /// Required designer variable.
@@ -311,7 +311,7 @@
             this.btLamMoi.Text = "Làm mới";
             this.btLamMoi.UseVisualStyleBackColor = true;
             // 
-            // f_ThemNS
+            // FormThemNhanSu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -346,7 +346,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "f_ThemNS";
+            this.Name = "FormThemNhanSu";
             this.Text = "Quản lý nhân sự - Thêm nhân sự";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
