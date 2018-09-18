@@ -531,7 +531,7 @@ namespace Design
 
         private void btTLThanhToanLuong_Click(object sender, EventArgs e)
         {
-            f_ThanhToanLng f = new f_ThanhToanLng();
+            FormThanhToanLuong f = new FormThanhToanLuong();
             this.Hide();
             f.ShowDialog();
             this.Show();
