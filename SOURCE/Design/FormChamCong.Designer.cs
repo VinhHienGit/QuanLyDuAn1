@@ -1,6 +1,6 @@
 ﻿namespace Design
 {
-    partial class f_ChamCong
+    partial class FormChamCong
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_ChamCong));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormChamCong));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mntChucNang = new System.Windows.Forms.ToolStripMenuItem();
             this.mntXemChamCong = new System.Windows.Forms.ToolStripMenuItem();

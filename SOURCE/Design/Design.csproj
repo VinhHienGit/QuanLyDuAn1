@@ -88,11 +88,11 @@
     <Compile Include="DTO\Luong.cs" />
     <Compile Include="DTO\MayMay.cs" />
     <Compile Include="DTO\NhanVien.cs" />
-    <Compile Include="f_ChamCong.cs">
+    <Compile Include="FormChamCong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_ChamCong.Designer.cs">
-      <DependentUpon>f_ChamCong.cs</DependentUpon>
+    <Compile Include="FormChamCong.Designer.cs">
+      <DependentUpon>FormChamCong.cs</DependentUpon>
     </Compile>
     <Compile Include="f_DangNhap.cs">
       <SubType>Form</SubType>
@@ -144,8 +144,8 @@
     <Compile Include="ThongKe.Designer.cs">
       <DependentUpon>ThongKe.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="f_ChamCong.resx">
-      <DependentUpon>f_ChamCong.cs</DependentUpon>
+    <EmbeddedResource Include="FormChamCong.resx">
+      <DependentUpon>FormChamCong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="f_DangNhap.resx">
       <DependentUpon>f_DangNhap.cs</DependentUpon>

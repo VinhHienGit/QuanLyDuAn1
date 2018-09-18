@@ -13,12 +13,12 @@ using System.Windows.Forms;
 
 namespace Design
 {
-    public partial class f_ChamCong : Form
+    public partial class FormChamCong : Form
     {
         List<ChucVu> lcv = new List<ChucVu>();
         ChucVu cvI = new ChucVu("CV000", "Tất cả", 0, 0);
         List<ChamCong> listCC = new List<ChamCong>();
-        public f_ChamCong()
+        public FormChamCong()
         {
             InitializeComponent();
             load();

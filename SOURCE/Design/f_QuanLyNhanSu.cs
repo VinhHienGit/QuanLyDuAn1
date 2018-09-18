@@ -413,7 +413,7 @@ namespace Design
         #region Chấm công
         private void btCCChamCong_Click(object sender, EventArgs e)
         {
-            f_ChamCong f = new f_ChamCong();
+            FormChamCong f = new FormChamCong();
             this.Hide();
             f.ShowDialog();
             load();
