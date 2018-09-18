@@ -16,7 +16,7 @@ namespace Design
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new f_QuanLyNhanSu());
+            Application.Run(new FormQuanLyNhanSu());
         }
     }
 }

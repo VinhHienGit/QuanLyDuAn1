@@ -88,47 +88,47 @@
     <Compile Include="DTO\Luong.cs" />
     <Compile Include="DTO\MayMay.cs" />
     <Compile Include="DTO\NhanVien.cs" />
-    <Compile Include="f_ChamCong.cs">
+    <Compile Include="FormChamCong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_ChamCong.Designer.cs">
-      <DependentUpon>f_ChamCong.cs</DependentUpon>
+    <Compile Include="FormChamCong.Designer.cs">
+      <DependentUpon>FormChamCong.cs</DependentUpon>
     </Compile>
-    <Compile Include="f_DangNhap.cs">
+    <Compile Include="FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_DangNhap.Designer.cs">
-      <DependentUpon>f_DangNhap.cs</DependentUpon>
+    <Compile Include="FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="f_QuanLyNhanSu.cs">
+    <Compile Include="FormQuanLyNhanSu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_QuanLyNhanSu.Designer.cs">
-      <DependentUpon>f_QuanLyNhanSu.cs</DependentUpon>
+    <Compile Include="FormQuanLyNhanSu.Designer.cs">
+      <DependentUpon>FormQuanLyNhanSu.cs</DependentUpon>
     </Compile>
-    <Compile Include="f_report.cs">
+    <Compile Include="FormReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_report.Designer.cs">
-      <DependentUpon>f_report.cs</DependentUpon>
+    <Compile Include="FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="f_ThanhToanLng.cs">
+    <Compile Include="FormThanhToanLuong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_ThanhToanLng.Designer.cs">
-      <DependentUpon>f_ThanhToanLng.cs</DependentUpon>
+    <Compile Include="FormThanhToanLuong.Designer.cs">
+      <DependentUpon>FormThanhToanLuong.cs</DependentUpon>
     </Compile>
-    <Compile Include="f_ThemNhanVien.cs">
+    <Compile Include="FormThemNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_ThemNhanVien.Designer.cs">
-      <DependentUpon>f_ThemNhanVien.cs</DependentUpon>
+    <Compile Include="FormThemNhanVien.Designer.cs">
+      <DependentUpon>FormThemNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="f_ThemNS.cs">
+    <Compile Include="FormThemNhanSu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="f_ThemNS.Designer.cs">
-      <DependentUpon>f_ThemNS.cs</DependentUpon>
+    <Compile Include="FormThemNhanSu.Designer.cs">
+      <DependentUpon>FormThemNhanSu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -144,26 +144,26 @@
     <Compile Include="ThongKe.Designer.cs">
       <DependentUpon>ThongKe.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="f_ChamCong.resx">
-      <DependentUpon>f_ChamCong.cs</DependentUpon>
+    <EmbeddedResource Include="FormChamCong.resx">
+      <DependentUpon>FormChamCong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="f_DangNhap.resx">
-      <DependentUpon>f_DangNhap.cs</DependentUpon>
+    <EmbeddedResource Include="FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="f_QuanLyNhanSu.resx">
-      <DependentUpon>f_QuanLyNhanSu.cs</DependentUpon>
+    <EmbeddedResource Include="FormQuanLyNhanSu.resx">
+      <DependentUpon>FormQuanLyNhanSu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="f_report.resx">
-      <DependentUpon>f_report.cs</DependentUpon>
+    <EmbeddedResource Include="FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="f_ThanhToanLng.resx">
-      <DependentUpon>f_ThanhToanLng.cs</DependentUpon>
+    <EmbeddedResource Include="FormThanhToanLuong.resx">
+      <DependentUpon>FormThanhToanLuong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="f_ThemNhanVien.resx">
-      <DependentUpon>f_ThemNhanVien.cs</DependentUpon>
+    <EmbeddedResource Include="FormThemNhanVien.resx">
+      <DependentUpon>FormThemNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="f_ThemNS.resx">
-      <DependentUpon>f_ThemNS.cs</DependentUpon>
+    <EmbeddedResource Include="FormThemNhanSu.resx">
+      <DependentUpon>FormThemNhanSu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

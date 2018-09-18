@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Design
 {
-    public partial class f_ThemNhanVien : Form
+    public partial class FormThemNhanVien : Form
     {
         List<NhanVien> list = new List<NhanVien>();
         NhanVien nvSelected = new NhanVien();
         string user = "";
         
-        int xbt, ybt;
-        public f_ThemNhanVien(string u)
+        int xbtn, ybtn;
+        public FormThemNhanVien(string u)
         {
             InitializeComponent();
             user = u;
@@ -33,17 +33,17 @@ namespace Design
         }
         
 
-        private void btThem_Click(object sender, EventArgs e)
+        private void btnThem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btLuu_Click(object sender, EventArgs e)
+        private void btnLuu_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btReSet_Click(object sender, EventArgs e)
+        private void btnReSet_Click(object sender, EventArgs e)
         {
 
         }

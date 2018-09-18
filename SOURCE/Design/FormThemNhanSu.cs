@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Design
 {
-    public partial class f_ThemNS : Form
+    public partial class FormThemNhanSu : Form
     {
-        public f_ThemNS()
+        public FormThemNhanSu()
         {
             InitializeComponent();
         }

@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace Design
 {
-    public partial class f_QuanLyNhanSu : Form   {
+    public partial class FormQuanLyNhanSu : Form   {
         String userQL = "";
         bool login = false;
         DateTime ngayMin;
@@ -22,8 +22,8 @@ namespace Design
         int tuoiMin;
         int tuoiMax;
         List<NhanVien> listLoad;
-        f_DangNhap fdn = new f_DangNhap();
-        public f_QuanLyNhanSu()
+        FormDangNhap fdn = new FormDangNhap();
+        public FormQuanLyNhanSu()
         {
             InitializeComponent();
             load();
@@ -70,11 +70,11 @@ namespace Design
             btTDXoa.Enabled = en;
             btTLThanhToanLuong.Enabled = en;
             btXoaHSNS.Enabled = en;
-            mntAdmin.Enabled = en;
+            mnuAdmin.Enabled = en;
             lvQLNS.Enabled = en;
-            mntThongTinCaNhan.Enabled = en;
-            mntDoiMatKhau.Enabled = en;
-            mntDangXuat.Enabled = en;
+            mnuThongTinCaNhan.Enabled = en;
+            mnuDoiMatKhau.Enabled = en;
+            mnuDangXuat.Enabled = en;
         }
 
         void loadNV(NhanVien nv)
@@ -142,11 +142,11 @@ namespace Design
         #endregion
 
 
-        #region mnt Tài khoảng
+        #region mnu Tài khoảng
 
-        private void mntDangNhap_Click(object sender, EventArgs e)
+        private void mnuDangNhap_Click(object sender, EventArgs e)
         {
-            f_DangNhap fdn = new f_DangNhap();
+            FormDangNhap fdn = new FormDangNhap();
             fdn.ShowDialog();
             userQL = fdn.user;
             if (userQL != "")
@@ -166,23 +166,23 @@ namespace Design
 
         void usered(bool usered)
         {
-            mntAdmin.Enabled = usered;
+            mnuAdmin.Enabled = usered;
             buttonEnab(usered);
         }
 
         
 
-        private void mntThongTinCaNhan_Click(object sender, EventArgs e)
+        private void mnuThongTinCaNhan_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void mntDoiMatKhau_Click(object sender, EventArgs e)
+        private void mnuDoiMatKhau_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void mntDangXuat_Click(object sender, EventArgs e)
+        private void mnuDangXuat_Click(object sender, EventArgs e)
         {
             login = false;
             usered(login);
@@ -191,7 +191,7 @@ namespace Design
             buttonEnab(false);
         }
 
-        private void mntThoat_Click(object sender, EventArgs e)
+        private void mnuThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
@@ -199,14 +199,14 @@ namespace Design
 
         #endregion
 
-        #region mnt Admin
+        #region mnu Admin
 
-        private void mntDangKyTaiKhoan_Click(object sender, EventArgs e)
+        private void mnuDangKyTaiKhoan_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void mntQuanLyTaiKhoan_Click(object sender, EventArgs e)
+        private void mnuQuanLyTaiKhoan_Click(object sender, EventArgs e)
         {
 
         }
@@ -219,13 +219,13 @@ namespace Design
 
         #endregion
 
-        #region mnt giới thiệu hướng dẫn
-        private void mntGioiThieuCTY_Click(object sender, EventArgs e)
+        #region mnu giới thiệu hướng dẫn
+        private void mnuGioiThieuCTY_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void mntGioiThieuPhanMem_Click(object sender, EventArgs e)
+        private void mnuGioiThieuPhanMem_Click(object sender, EventArgs e)
         {
 
         }
@@ -413,7 +413,7 @@ namespace Design
         #region Chấm công
         private void btCCChamCong_Click(object sender, EventArgs e)
         {
-            f_ChamCong f = new f_ChamCong();
+            FormChamCong f = new FormChamCong();
             this.Hide();
             f.ShowDialog();
             load();
@@ -531,7 +531,7 @@ namespace Design
 
         private void btTLThanhToanLuong_Click(object sender, EventArgs e)
         {
-            f_ThanhToanLng f = new f_ThanhToanLng();
+            FormThanhToanLuong f = new FormThanhToanLuong();
             this.Hide();
             f.ShowDialog();
             this.Show();
@@ -688,7 +688,7 @@ namespace Design
 
         private void btReport_Click(object sender, EventArgs e)
         {
-            f_report f = new f_report();
+            FormReport f = new FormReport();
             f.ShowDialog();
         }
     }
