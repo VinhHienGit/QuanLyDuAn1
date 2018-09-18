@@ -22,21 +22,21 @@ namespace Design
         {
             InitializeComponent();
             load();
-            dtpNgayVaoLam.MaxDate = DateTime.Now;
+            dtmNgayVaoLam.MaxDate = DateTime.Now;
         }
 
-        private void dtpNgayVaoLam_ValueChanged(object sender, EventArgs e)
+        private void dtmNgayVaoLam_ValueChanged(object sender, EventArgs e)
         {
-            listCC = ChamCongBUS.Instance.loadDGVChamCong(dataGridView1, dtpNgayVaoLam.Value, cvI);
-            lbSL.Text = " " + listCC.Count.ToString();
+            listCC = ChamCongBUS.Instance.loadDGVChamCong(dgvChamCong, dtmNgayVaoLam.Value, cvI);
+            lblSL.Text = " " + listCC.Count.ToString();
         }
 
-        private void cbbChucVu_SelectedIndexChanged(object sender, EventArgs e)
+        private void cboChucVu_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cvI = ChucVuDAO.Instance.getChucVuByName(cbbChucVu.Text);
+            cvI = ChucVuDAO.Instance.getChucVuByName(cboChucVu.Text);
         }
 
-        private void txbCCMaSV_TextChanged(object sender, EventArgs e)
+        private void txtCCMaSV_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -46,7 +46,7 @@ namespace Design
             string q = "SELECT DISTINCT * FROM ChucVu";
             DataTable t = DataProvider.Instance.ExecuteQuery(q);
             lcv.Clear();
-            cbbChucVu.Items.Clear();
+            cboChucVu.Items.Clear();
             foreach (DataRow row in t.Rows)
             {
                 ChucVu cv = new ChucVu(row);
@@ -54,19 +54,19 @@ namespace Design
             }
             foreach (ChucVu cv in lcv)
             {
-                cbbChucVu.Items.Add(cv.TenCV);
+                cboChucVu.Items.Add(cv.TenCV);
             }
-            cbbChucVu.Items.Add("tất cả");
+            cboChucVu.Items.Add("tất cả");
 
-            listCC = ChamCongBUS.Instance.loadDGVChamCong(dataGridView1, dtpNgayVaoLam.Value, cvI);
-            lbSL.Text = " " + listCC.Count.ToString();
+            listCC = ChamCongBUS.Instance.loadDGVChamCong(dgvChamCong, dtmNgayVaoLam.Value, cvI);
+            lblSL.Text = " " + listCC.Count.ToString();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvChamCong_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             var sdg = (DataGridView)sender;
             DataGridViewRow row = new DataGridViewRow();
-            row = dataGridView1.Rows[e.RowIndex];
+            row = dgvChamCong.Rows[e.RowIndex];
             ChamCong cc = new ChamCong();
             foreach(ChamCong item in listCC)
             {
@@ -91,7 +91,7 @@ namespace Design
             if (sdg.Columns[e.ColumnIndex] is DataGridViewButtonColumn && e.RowIndex >= 0)
             {
                 // to do button click
-                if(sdg.Columns[clBTLuu.Name] is DataGridViewButtonColumn && e.RowIndex >= 0 && sdg.Columns[e.ColumnIndex] == sdg.Columns[clBTLuu.Name])
+                if(sdg.Columns[clblTLuu.Name] is DataGridViewButtonColumn && e.RowIndex >= 0 && sdg.Columns[e.ColumnIndex] == sdg.Columns[clblTLuu.Name])
                 {
                     // thêm chấm công
                     if(cc.MaCC != "")
@@ -105,20 +105,20 @@ namespace Design
                             tg = cc.TgCC.ToString();
                             sl = cc.SlCC.ToString();
                             listCC.Remove(cc);
-                            dataGridView1.Rows.Remove(row);
-                            lbTranhThai.ForeColor = Color.Aqua;
-                            lbTranhThai.Text = "Chấm Công: " + m + "---> " + sl + "sp/" + tg + "giờ";
+                            dgvChamCong.Rows.Remove(row);
+                            lblTranhThai.ForeColor = Color.Aqua;
+                            lblTranhThai.Text = "Chấm Công: " + m + "---> " + sl + "sp/" + tg + "giờ";
                         }
                         else
                         {
-                            lbTranhThai.ForeColor = Color.Red;
-                            lbTranhThai.Text = "Không thể chấm công lúc này! Vui lòng thử lại sau.";
+                            lblTranhThai.ForeColor = Color.Red;
+                            lblTranhThai.Text = "Không thể chấm công lúc này! Vui lòng thử lại sau.";
                         }
                     }
                     else
                     {
-                        lbTranhThai.ForeColor = Color.Red;
-                        lbTranhThai.Text = "Không thể chấm công lúc này! Vui lòng thử lại sau.";
+                        lblTranhThai.ForeColor = Color.Red;
+                        lblTranhThai.Text = "Không thể chấm công lúc này! Vui lòng thử lại sau.";
                     }
                 }
 
@@ -126,7 +126,7 @@ namespace Design
                 {
                     // xóa chấm công
                     listCC.Remove(cc);
-                    dataGridView1.Rows.Remove(row);
+                    dgvChamCong.Rows.Remove(row);
                 }
             }
         }
