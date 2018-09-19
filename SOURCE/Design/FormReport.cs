@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace Design
 {
-    public partial class f_report : Form
+    public partial class FormReport : Form
     {
-        public f_report()
+        public FormReport()
         {
             InitializeComponent();
         }

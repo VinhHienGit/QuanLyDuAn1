@@ -11,30 +11,30 @@ using System.Windows.Forms;
 
 namespace Design
 {
-    public partial class f_DangNhap : Form
+    public partial class FormDangNhap : Form
     {
         public String user = "";
-        public f_DangNhap()
+        public FormDangNhap()
         {
             InitializeComponent();
         }
 
-        private void tb_TextChanged(object sender, EventArgs e)
+        private void txt_TextChanged(object sender, EventArgs e)
         {
-            if (tbTaiKhoan.Text.Trim() != null && tbMatKhau.Text.Trim() != null)
-                btDangNhap.Enabled = true;
+            if (txtTaiKhoan.Text.Trim() != null && txtMatKhau.Text.Trim() != null)
+                btnnDangNhap.Enabled = true;
             else
-                btDangNhap.Enabled = false;
+                btnnDangNhap.Enabled = false;
 
         }
 
-        private void btDangNhap_Click(object sender, EventArgs e)
+        private void btnnDangNhap_Click(object sender, EventArgs e)
         {
-            if(AccountDAO.Instance.login(tbTaiKhoan.Text.Trim(), tbMatKhau.Text.Trim()))
+            if(AccountDAO.Instance.login(txtTaiKhoan.Text.Trim(), txtMatKhau.Text.Trim()))
             {
-                user = tbTaiKhoan.Text;
+                user = txtTaiKhoan.Text;
                 this.Hide();
-                tbMatKhau.Text = "";
+                txtMatKhau.Text = "";
             }
             else
             {
@@ -43,7 +43,7 @@ namespace Design
             }
         }
 
-        private void btThoat_Click(object sender, EventArgs e)
+        private void btnnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

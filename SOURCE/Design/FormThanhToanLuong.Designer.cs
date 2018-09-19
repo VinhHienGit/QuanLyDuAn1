@@ -37,6 +37,7 @@
             this.đóngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hướngDẫnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.toolStripStatuslbl1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblSL = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -47,12 +48,25 @@
             this.btnHuy = new System.Windows.Forms.Button();
             this.dtmNgaylanSau = new System.Windows.Forms.DateTimePicker();
             this.lbl14 = new System.Windows.Forms.Label();
+=======
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblSL = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lbltnrangThai = new System.Windows.Forms.ToolStripStatusLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.dtmNgaylanSau = new System.Windows.Forms.DateTimePicker();
+            this.label14 = new System.Windows.Forms.Label();
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnThanhToan = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.nmrThucLanh = new System.Windows.Forms.NumericUpDown();
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.lbl19 = new System.Windows.Forms.Label();
             this.txtslCC = new System.Windows.Forms.TextBox();
             this.lbl12 = new System.Windows.Forms.Label();
@@ -68,12 +82,33 @@
             this.lbl13 = new System.Windows.Forms.Label();
             this.txttnongLng = new System.Windows.Forms.TextBox();
             this.lbl11 = new System.Windows.Forms.Label();
+=======
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtslCC = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txttnienLuong = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtHSLng = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtChucVu = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txtChamCong = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txttnhucLanh = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txttnongLng = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.ptbAnhNV = new System.Windows.Forms.PictureBox();
             this.chkNam = new System.Windows.Forms.CheckBox();
             this.dtmNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.dtmNgayKT = new System.Windows.Forms.DateTimePicker();
             this.dtmNgayBD = new System.Windows.Forms.DateTimePicker();
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.lbl10 = new System.Windows.Forms.Label();
+=======
+            this.label10 = new System.Windows.Forms.Label();
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.label9 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -86,7 +121,11 @@
             this.txtMaNV = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.chkbtnimKiemTL = new System.Windows.Forms.ComboBox();
+=======
+            this.chkotnimKiemTL = new System.Windows.Forms.ComboBox();
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.txttnimKiemTL = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.clSTT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -162,11 +201,19 @@
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.toolStripStatuslbl1,
             this.lblSL,
             this.toolStripStatusLabel3,
             this.toolStripStatusLabel4,
             this.lbltrangThai});
+=======
+            this.toolStripStatusLabel1,
+            this.lblSL,
+            this.toolStripStatusLabel3,
+            this.toolStripStatusLabel4,
+            this.lbltnrangThai});
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.statusStrip1.Location = new System.Drawing.Point(0, 424);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(841, 22);
@@ -197,12 +244,21 @@
             this.toolStripStatusLabel4.Size = new System.Drawing.Size(69, 17);
             this.toolStripStatusLabel4.Text = "Trạng Thái: ";
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbltrangThai
             // 
             this.lbltrangThai.ForeColor = System.Drawing.Color.Aqua;
             this.lbltrangThai.Name = "lbltrangThai";
             this.lbltrangThai.Size = new System.Drawing.Size(186, 17);
             this.lbltrangThai.Text = "Chọn nhân viên thanh toán lương";
+=======
+            // lbltnrangThai
+            // 
+            this.lbltnrangThai.ForeColor = System.Drawing.Color.Aqua;
+            this.lbltnrangThai.Name = "lbltnrangThai";
+            this.lbltnrangThai.Size = new System.Drawing.Size(186, 17);
+            this.lbltnrangThai.Text = "Chọn nhân viên thanh toán lương";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // lbl1
             // 
@@ -219,7 +275,11 @@
             // 
             this.panel1.Controls.Add(this.btnHuy);
             this.panel1.Controls.Add(this.dtmNgaylanSau);
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.panel1.Controls.Add(this.lbl14);
+=======
+            this.panel1.Controls.Add(this.label14);
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.panel1.Controls.Add(this.btnLuu);
             this.panel1.Controls.Add(this.btnThanhToan);
             this.panel1.Controls.Add(this.panel2);
@@ -228,7 +288,11 @@
             this.panel1.Controls.Add(this.dtmNgaySinh);
             this.panel1.Controls.Add(this.dtmNgayKT);
             this.panel1.Controls.Add(this.dtmNgayBD);
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.panel1.Controls.Add(this.lbl10);
+=======
+            this.panel1.Controls.Add(this.label10);
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.txtSDT);
             this.panel1.Controls.Add(this.label8);
@@ -265,6 +329,7 @@
             this.dtmNgaylanSau.Size = new System.Drawing.Size(89, 20);
             this.dtmNgaylanSau.TabIndex = 55;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl14
             // 
             this.lbl14.AutoSize = true;
@@ -273,6 +338,16 @@
             this.lbl14.Size = new System.Drawing.Size(123, 13);
             this.lbl14.TabIndex = 54;
             this.lbl14.Text = "Mốc tính lương lần trước";
+=======
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(218, 190);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(123, 13);
+            this.label14.TabIndex = 54;
+            this.label14.Text = "Mốc tính lương lần trước";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // btnLuu
             // 
@@ -299,6 +374,7 @@
             this.panel2.Controls.Add(this.label21);
             this.panel2.Controls.Add(this.label20);
             this.panel2.Controls.Add(this.nmrThucLanh);
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.panel2.Controls.Add(this.lbl19);
             this.panel2.Controls.Add(this.txtslCC);
             this.panel2.Controls.Add(this.lbl12);
@@ -314,6 +390,23 @@
             this.panel2.Controls.Add(this.lbl13);
             this.panel2.Controls.Add(this.txttnongLng);
             this.panel2.Controls.Add(this.lbl11);
+=======
+            this.panel2.Controls.Add(this.label19);
+            this.panel2.Controls.Add(this.txtslCC);
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.txttnienLuong);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.txtHSLng);
+            this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.txtChucVu);
+            this.panel2.Controls.Add(this.label16);
+            this.panel2.Controls.Add(this.txtChamCong);
+            this.panel2.Controls.Add(this.label15);
+            this.panel2.Controls.Add(this.txttnhucLanh);
+            this.panel2.Controls.Add(this.label13);
+            this.panel2.Controls.Add(this.txttnongLng);
+            this.panel2.Controls.Add(this.label11);
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.panel2.Location = new System.Drawing.Point(3, 242);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(415, 113);
@@ -364,6 +457,7 @@
             0});
             this.nmrThucLanh.ValueChanged += new System.EventHandler(this.nmrThucLanh_ValueChanged);
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl19
             // 
             this.lbl19.AutoSize = true;
@@ -373,6 +467,17 @@
             this.lbl19.Size = new System.Drawing.Size(61, 13);
             this.lbl19.TabIndex = 52;
             this.lbl19.Text = "Thành tiền ";
+=======
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.ForeColor = System.Drawing.Color.IndianRed;
+            this.label19.Location = new System.Drawing.Point(216, 41);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(61, 13);
+            this.label19.TabIndex = 52;
+            this.label19.Text = "Thành tiền ";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txtslCC
             // 
@@ -382,6 +487,7 @@
             this.txtslCC.Size = new System.Drawing.Size(82, 20);
             this.txtslCC.TabIndex = 51;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl12
             // 
             this.lbl12.AutoSize = true;
@@ -391,6 +497,17 @@
             this.lbl12.Size = new System.Drawing.Size(47, 13);
             this.lbl12.TabIndex = 50;
             this.lbl12.Text = "số lượng";
+=======
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.IndianRed;
+            this.label12.Location = new System.Drawing.Point(75, 41);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(47, 13);
+            this.label12.TabIndex = 50;
+            this.label12.Text = "số lượng";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txttnienLuong
             // 
@@ -400,6 +517,7 @@
             this.txttnienLuong.Size = new System.Drawing.Size(77, 20);
             this.txttnienLuong.TabIndex = 49;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl18
             // 
             this.lbl18.AutoSize = true;
@@ -408,6 +526,16 @@
             this.lbl18.Size = new System.Drawing.Size(57, 13);
             this.lbl18.TabIndex = 48;
             this.lbl18.Text = "Tiền lương";
+=======
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(263, 15);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(57, 13);
+            this.label18.TabIndex = 48;
+            this.label18.Text = "Tiền lương";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txtHSLng
             // 
@@ -417,6 +545,7 @@
             this.txtHSLng.Size = new System.Drawing.Size(42, 20);
             this.txtHSLng.TabIndex = 47;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl17
             // 
             this.lbl17.AutoSize = true;
@@ -425,6 +554,16 @@
             this.lbl17.Size = new System.Drawing.Size(64, 13);
             this.lbl17.TabIndex = 46;
             this.lbl17.Text = "Hệ số lương";
+=======
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(151, 15);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(64, 13);
+            this.label17.TabIndex = 46;
+            this.label17.Text = "Hệ số lương";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txtChucVu
             // 
@@ -434,6 +573,7 @@
             this.txtChucVu.Size = new System.Drawing.Size(87, 20);
             this.txtChucVu.TabIndex = 44;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl16
             // 
             this.lbl16.AutoSize = true;
@@ -442,6 +582,16 @@
             this.lbl16.Size = new System.Drawing.Size(47, 13);
             this.lbl16.TabIndex = 43;
             this.lbl16.Text = "Chức vụ";
+=======
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(3, 15);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(47, 13);
+            this.label16.TabIndex = 43;
+            this.label16.Text = "Chức vụ";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txtChamCong
             // 
@@ -451,6 +601,7 @@
             this.txtChamCong.Size = new System.Drawing.Size(120, 20);
             this.txtChamCong.TabIndex = 42;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl15
             // 
             this.lbl15.AutoSize = true;
@@ -460,6 +611,17 @@
             this.lbl15.Size = new System.Drawing.Size(61, 13);
             this.lbl15.TabIndex = 41;
             this.lbl15.Text = "Chấm công";
+=======
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.IndianRed;
+            this.label15.Location = new System.Drawing.Point(3, 41);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(61, 13);
+            this.label15.TabIndex = 41;
+            this.label15.Text = "Chấm công";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txttnhucLanh
             // 
@@ -470,6 +632,7 @@
             this.txttnhucLanh.Size = new System.Drawing.Size(153, 26);
             this.txttnhucLanh.TabIndex = 39;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl13
             // 
             this.lbl13.AutoSize = true;
@@ -479,6 +642,17 @@
             this.lbl13.Size = new System.Drawing.Size(55, 13);
             this.lbl13.TabIndex = 38;
             this.lbl13.Text = "Thực lãnh";
+=======
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.Color.DarkRed;
+            this.label13.Location = new System.Drawing.Point(10, 93);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(55, 13);
+            this.label13.TabIndex = 38;
+            this.label13.Text = "Thực lãnh";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txttnongLng
             // 
@@ -488,6 +662,7 @@
             this.txttnongLng.Size = new System.Drawing.Size(115, 20);
             this.txttnongLng.TabIndex = 35;
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl11
             // 
             this.lbl11.AutoSize = true;
@@ -496,6 +671,16 @@
             this.lbl11.Size = new System.Drawing.Size(61, 13);
             this.lbl11.TabIndex = 34;
             this.lbl11.Text = "Tổng lương";
+=======
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(3, 67);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(61, 13);
+            this.label11.TabIndex = 34;
+            this.label11.Text = "Tổng lương";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // ptbAnhNV
             // 
@@ -543,6 +728,7 @@
             this.dtmNgayBD.TabIndex = 45;
             this.dtmNgayBD.ValueChanged += new System.EventHandler(this.dtmNgayBD_ValueChanged);
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // lbl10
             // 
             this.lbl10.AutoSize = true;
@@ -551,6 +737,16 @@
             this.lbl10.Size = new System.Drawing.Size(104, 13);
             this.lbl10.TabIndex = 44;
             this.lbl10.Text = "Ngày KT tính Lương";
+=======
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(13, 219);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(104, 13);
+            this.label10.TabIndex = 44;
+            this.label10.Text = "Ngày KT tính Lương";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // label9
             // 
@@ -658,6 +854,7 @@
             this.label2.TabIndex = 31;
             this.label2.Text = "Thanh toán lương";
             // 
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // chkbtnimKiemTL
             // 
             this.chkbtnimKiemTL.FormattingEnabled = true;
@@ -670,6 +867,20 @@
             this.chkbtnimKiemTL.Size = new System.Drawing.Size(95, 21);
             this.chkbtnimKiemTL.TabIndex = 34;
             this.chkbtnimKiemTL.Text = "Tên nhân viên";
+=======
+            // chkotnimKiemTL
+            // 
+            this.chkotnimKiemTL.FormattingEnabled = true;
+            this.chkotnimKiemTL.Items.AddRange(new object[] {
+            "Tên nhân viên",
+            "Mã hồ sơ",
+            "Mã nhân viên"});
+            this.chkotnimKiemTL.Location = new System.Drawing.Point(259, 60);
+            this.chkotnimKiemTL.Name = "chkotnimKiemTL";
+            this.chkotnimKiemTL.Size = new System.Drawing.Size(95, 21);
+            this.chkotnimKiemTL.TabIndex = 34;
+            this.chkotnimKiemTL.Text = "Tên nhân viên";
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             // 
             // txttnimKiemTL
             // 
@@ -718,7 +929,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(841, 446);
             this.Controls.Add(this.listView1);
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.Controls.Add(this.chkbtnimKiemTL);
+=======
+            this.Controls.Add(this.chkotnimKiemTL);
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
             this.Controls.Add(this.txttnimKiemTL);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl1);
@@ -752,25 +967,42 @@
         private System.Windows.Forms.ToolStripMenuItem đóngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hướngDẫnToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatuslbl1;
         private System.Windows.Forms.ToolStripStatusLabel lblSL;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
         private System.Windows.Forms.ToolStripStatusLabel lbltrangThai;
         private System.Windows.Forms.Label lbl1;
+=======
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel lblSL;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+        private System.Windows.Forms.ToolStripStatusLabel lbltnrangThai;
+        private System.Windows.Forms.Label label1;
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txttnongLng;
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.Label lbl11;
+=======
+        private System.Windows.Forms.Label label11;
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.PictureBox ptbAnhNV;
         private System.Windows.Forms.CheckBox chkNam;
         private System.Windows.Forms.DateTimePicker dtmNgaySinh;
         private System.Windows.Forms.DateTimePicker dtmNgayKT;
         private System.Windows.Forms.DateTimePicker dtmNgayBD;
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.Label lbl10;
+=======
+        private System.Windows.Forms.Label label10;
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.Label label8;
@@ -784,6 +1016,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnHuy;
         private System.Windows.Forms.DateTimePicker dtmNgaylanSau;
+<<<<<<< HEAD:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.Label lbl14;
         private System.Windows.Forms.TextBox txttnhucLanh;
         private System.Windows.Forms.Label lbl13;
@@ -803,6 +1036,27 @@
         private System.Windows.Forms.Label lbl19;
         private System.Windows.Forms.TextBox txtslCC;
         private System.Windows.Forms.Label lbl12;
+=======
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txttnhucLanh;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtChamCong;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txtHSLng;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox chkotnimKiemTL;
+        private System.Windows.Forms.TextBox txttnimKiemTL;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.TextBox txttnienLuong;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ColumnHeader clSTT;
+        private System.Windows.Forms.ColumnHeader clMaNV;
+        private System.Windows.Forms.ColumnHeader cltenNV;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txtslCC;
+        private System.Windows.Forms.Label label12;
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormThanhToanLuong.Designer.cs
         private System.Windows.Forms.TextBox txtChucVu;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;

@@ -1,6 +1,6 @@
 ﻿namespace Design
 {
-    partial class f_report
+    partial class FormReport
     {
         /// <summary>
         /// Required designer variable.
