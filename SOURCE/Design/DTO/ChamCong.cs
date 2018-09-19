@@ -18,9 +18,9 @@ namespace Design.DTO
         private float giaCC;
         private float thanhTienCC;
 
-        public ChamCong() { this.MaCC = ""; }
+        public ChamCong() { this.MaCC = ""; } // khởi tạo chấm công mặt định.
 
-        public ChamCong(string ma, NhanVien nv, DateTime ngay, float tg, int sl, float giaCC)
+        public ChamCong(string ma, NhanVien nv, DateTime ngay, float tg, int sl, float giaCC) // Khởi tạo một chấm công với data được input.
         {
             this.maCC = ma;
             this.nvCC = nv;
@@ -31,7 +31,7 @@ namespace Design.DTO
             this.thanhTienCC = sl * giaCC;
         }
 
-        public ChamCong(DataRow row)
+        public ChamCong(DataRow row) // khởi tạo chấm công với datarow
         {
             this.maCC = row["maCC"].ToString();
             this.nvCC = NhanVienDAO.Instance.loaddsNVByMaNV(row["maNV"].ToString()).First();
