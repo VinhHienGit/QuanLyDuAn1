@@ -38,11 +38,7 @@
             this.mnuNhapTuFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDong = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHuongDan = new System.Windows.Forms.ToolStripMenuItem();
-<<<<<<< HEAD:SOURCE/Design/FormThemNhanVien.Designer.cs
             this.grpThemNhanVien = new System.Windows.Forms.GroupBox();
-=======
-            this.grb1 = new System.Windows.Forms.GroupBox();
->>>>>>> feature/Edit_convention:SOURCE/Design/FormThemNhanVien.Designer.cs
             this.btnReSet = new System.Windows.Forms.Button();
             this.cboTrinhDo = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -76,11 +72,7 @@
             this.clChucVu = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.clNgayVaolam = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.mnu.SuspendLayout();
-<<<<<<< HEAD:SOURCE/Design/FormThemNhanVien.Designer.cs
             this.grpThemNhanVien.SuspendLayout();
-=======
-            this.grb1.SuspendLayout();
->>>>>>> feature/Edit_convention:SOURCE/Design/FormThemNhanVien.Designer.cs
             ((System.ComponentModel.ISupportInitialize)(this.nmrSLNSM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThemNS)).BeginInit();
             this.statusStrip1.SuspendLayout();
@@ -160,7 +152,6 @@
             this.mnuHuongDan.Size = new System.Drawing.Size(79, 20);
             this.mnuHuongDan.Text = "Hướng dẫn";
             // 
-<<<<<<< HEAD:SOURCE/Design/FormThemNhanVien.Designer.cs
             // grpThemNhanVien
             // 
             this.grpThemNhanVien.BackColor = System.Drawing.Color.Azure;
@@ -185,32 +176,6 @@
             this.grpThemNhanVien.TabIndex = 22;
             this.grpThemNhanVien.TabStop = false;
             this.grpThemNhanVien.Text = "Bảng tùy chọn";
-=======
-            // grb1
-            // 
-            this.grb1.BackColor = System.Drawing.Color.Azure;
-            this.grb1.Controls.Add(this.btnReSet);
-            this.grb1.Controls.Add(this.cboTrinhDo);
-            this.grb1.Controls.Add(this.label5);
-            this.grb1.Controls.Add(this.cboDanToc);
-            this.grb1.Controls.Add(this.label4);
-            this.grb1.Controls.Add(this.nmrSLNSM);
-            this.grb1.Controls.Add(this.btnLuu);
-            this.grb1.Controls.Add(this.btnThem);
-            this.grb1.Controls.Add(this.label12);
-            this.grb1.Controls.Add(this.cboGioiTinh);
-            this.grb1.Controls.Add(this.label13);
-            this.grb1.Controls.Add(this.cboChucVu);
-            this.grb1.Controls.Add(this.label14);
-            this.grb1.Controls.Add(this.dtmNgayVaoLam);
-            this.grb1.Controls.Add(this.label16);
-            this.grb1.Location = new System.Drawing.Point(12, 27);
-            this.grb1.Name = "grb1";
-            this.grb1.Size = new System.Drawing.Size(897, 58);
-            this.grb1.TabIndex = 22;
-            this.grb1.TabStop = false;
-            this.grb1.Text = "Bảng tùy chọn";
->>>>>>> feature/Edit_convention:SOURCE/Design/FormThemNhanVien.Designer.cs
             // 
             // btnReSet
             // 
@@ -504,23 +469,14 @@
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvThemNS);
-<<<<<<< HEAD:SOURCE/Design/FormThemNhanVien.Designer.cs
             this.Controls.Add(this.grpThemNhanVien);
-=======
-            this.Controls.Add(this.grb1);
->>>>>>> feature/Edit_convention:SOURCE/Design/FormThemNhanVien.Designer.cs
             this.Controls.Add(this.mnu);
             this.Name = "f_ThemNhanVien";
             this.Text = "Quản lý nhân sự - Thêm nhân sự";
             this.mnu.ResumeLayout(false);
             this.mnu.PerformLayout();
-<<<<<<< HEAD:SOURCE/Design/FormThemNhanVien.Designer.cs
             this.grpThemNhanVien.ResumeLayout(false);
             this.grpThemNhanVien.PerformLayout();
-=======
-            this.grb1.ResumeLayout(false);
-            this.grb1.PerformLayout();
->>>>>>> feature/Edit_convention:SOURCE/Design/FormThemNhanVien.Designer.cs
             ((System.ComponentModel.ISupportInitialize)(this.nmrSLNSM)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThemNS)).EndInit();
             this.statusStrip1.ResumeLayout(false);
@@ -541,11 +497,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuNhapTuFile;
         private System.Windows.Forms.ToolStripMenuItem mnuDong;
         private System.Windows.Forms.ToolStripMenuItem mnuHuongDan;
-<<<<<<< HEAD:SOURCE/Design/FormThemNhanVien.Designer.cs
         private System.Windows.Forms.GroupBox grpThemNhanVien;
-=======
-        private System.Windows.Forms.GroupBox grb1;
->>>>>>> feature/Edit_convention:SOURCE/Design/FormThemNhanVien.Designer.cs
         private System.Windows.Forms.Button btnReSet;
         private System.Windows.Forms.ComboBox cboTrinhDo;
         private System.Windows.Forms.Label label5;
