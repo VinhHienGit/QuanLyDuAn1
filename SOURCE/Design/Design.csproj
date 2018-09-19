@@ -124,21 +124,6 @@
     <Compile Include="FormThemNhanVien.Designer.cs">
       <DependentUpon>FormThemNhanVien.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="FormThemHoSoNhanSu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>FormThemHoSoNhanSu.cs</DependentUpon>
-      <SubType>Form</SubType>
-=======
-    <Compile Include="FormThemNhanSu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormThemNhanSu.Designer.cs">
-      <DependentUpon>FormThemNhanSu.cs</DependentUpon>
->>>>>>> feature/Edit_convention
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLNSDataSet.Designer.cs">
@@ -170,14 +155,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormThemNhanVien.resx">
       <DependentUpon>FormThemNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="FormThemHoSoNhanSu.resx">
-      <DependentUpon>FormThemHoSoNhanSu.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="FormThemNhanSu.resx">
-      <DependentUpon>FormThemNhanSu.cs</DependentUpon>
->>>>>>> feature/Edit_convention
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

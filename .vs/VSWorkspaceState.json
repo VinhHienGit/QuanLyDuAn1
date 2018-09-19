@@ -1,15 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-<<<<<<< HEAD
     "\\SOURCE",
     "\\SOURCE\\Design"
   ],
   "SelectedNode": "\\SOURCE\\Design\\FormChamCong.cs",
-=======
-    "\\SOURCE"
-  ],
-  "SelectedNode": "\\SOURCE\\Design.sln",
->>>>>>> feature/Edit_convention
   "PreviewInSolutionExplorer": false
 }
