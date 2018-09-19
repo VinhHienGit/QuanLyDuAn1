@@ -11,7 +11,7 @@ namespace Design.DAO
     public class DataProvider
     {
         
-        private string connectionSTR = @"Data Source=KIDSZONE;Initial Catalog=QLNS;User ID=sa;Password=123456";
+        private string connectionSTR = @"Data Source=NGUYENZ\KIDSZONE;Initial Catalog=QLNS;User ID=sa;Password=123456";
         private static DataProvider instance;
 
         public static DataProvider Instance
