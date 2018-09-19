@@ -22,7 +22,11 @@ namespace Design
         int tuoiMin;
         int tuoiMax;
         List<NhanVien> listLoad;
+<<<<<<< HEAD:SOURCE/Design/FormQuanLyNhanSu.cs
         f_DangNhap fdn = new f_DangNhap();
+=======
+        FormDangNhap fdn = new FormDangNhap();
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormQuanLyNhanSu.cs
         public FormQuanLyNhanSu()
         {
             InitializeComponent();
@@ -62,6 +66,7 @@ namespace Design
 
         void buttonEnab(bool en)
         {
+<<<<<<< HEAD:SOURCE/Design/FormQuanLyNhanSu.cs
             btnThemHSNS.Enabled = en;
             btnCCcChamPhat.Enabled = en;
             btnCCChamCong.Enabled = en;
@@ -70,6 +75,16 @@ namespace Design
             btnTDXoa.Enabled = en;
             btnTLThanhToanLuong.Enabled = en;
             btnXoaHSNS.Enabled = en;
+=======
+            btThemHSNS.Enabled = en;
+            btCCcChamPhat.Enabled = en;
+            btCCChamCong.Enabled = en;
+            btCCNghiPhep.Enabled = en;
+            btSuaHSNS.Enabled = en;
+            btTDXoa.Enabled = en;
+            btTLThanhToanLuong.Enabled = en;
+            btXoaHSNS.Enabled = en;
+>>>>>>> feature/Edit_convention:SOURCE/Design/FormQuanLyNhanSu.cs
             mnuAdmin.Enabled = en;
             lvQLNS.Enabled = en;
             mnuThongTinCaNhan.Enabled = en;
@@ -148,7 +163,7 @@ namespace Design
 
         private void mnuDangNhap_Click(object sender, EventArgs e)
         {
-            f_DangNhap fdn = new f_DangNhap();
+            FormDangNhap fdn = new FormDangNhap();
             fdn.ShowDialog();
             userQL = fdn.user;
             if (userQL != "")
@@ -690,7 +705,7 @@ namespace Design
 
         private void btnReport_Click(object sender, EventArgs e)
         {
-            f_report f = new f_report();
+            FormReport f = new FormReport();
             f.ShowDialog();
         }
     }
