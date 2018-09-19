@@ -12,7 +12,7 @@ namespace Design.DAO
     {
         private static TinhLuongDAO instance;
 
-        public static TinhLuongDAO Instance
+        public static TinhLuongDAO Instance  // Loại bỏ trường hợp data null oop.
         {
             get
             {
@@ -26,7 +26,7 @@ namespace Design.DAO
             }
         }
 
-        public List<Luong> ListTinhLuong()
+        public List<Luong> ListTinhLuong() // nhận bảng lương từ database
         {
             List<Luong> ds = new List<Luong>();
             string query = "SELECT * FROM dbo.TinhLuong";
@@ -39,7 +39,7 @@ namespace Design.DAO
             return ds;
         }
 
-        public bool ThemLuong(Luong lg)
+        public bool ThemLuong(Luong lg) //Thêm vào 1 thanh toán luong
         {
             string query = "sp_ThemTinhLuong @maLng , @maNV , @ngayBD , @ngayKT , @tgTLng , @slTLng , @tongLng";
             Object[] ob = { lg.MaLng, lg.NVTLng.MaNV, lg.NgayBD, lg.NgayKT, lg.TgLng, lg.SlLng, lg.TLng};
@@ -48,7 +48,7 @@ namespace Design.DAO
             return false;
         }
 
-        public bool checkMaLuong(string malng)
+        public bool checkMaLuong(string malng) //kiểm tra mã lương
         {
             string query = "SELECT * FROM dbo.TinhLuong where maLng = '" + malng + "'";
             DataTable table = DataProvider.Instance.ExecuteQuery(query);
